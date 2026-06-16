@@ -1,87 +1,127 @@
 
 ---
-# *Nội Dung:*
+# *Hierarchy:*
 
-- `RUP`
-- `Agile/XP, Scrum`
+- `Các thuật ngữ được chia làm 2 tầng:`
+	- `Tầng triết lí:`
+		- `Agile: Là triết lí duy nhất của tầng này.`
+	- `Tầng process model:`
+		- `Process model cổ điển:`
+			- `Waterfall.`
+			- `V-model (là waterfall model nhưng có 5 bước kiểm thử đối xứng).`
+			- `Evolutionary development.`
+			- `Component-based.`
+			- `RUP: Một process model cũng có nhiều iteration như Scrum, nhưng khổng lồ và rất nặng tài liệu.`
+		- `Process model hiện đại:`
+			- `Scrum.`
+			- `XP.`
+
+# *Các quy trình trọng tâm:*
+
+### Rational Unified Process (RUP):
+
+- `Mô tả về từng luồng hoạt động:`
+	- `Inception:`
+		- `Đánh giá dự án (theo góc nhìn kinh tế).`
+		- `Phác thảo dự án (theo góc nhìn kĩ thuật).`
+	- `Elaboration:`
+		- `Phát hiện rủi ro.`
+		- `Định nghĩa và thiết kế mô hình yêu cầu.`
+	- `Construction:`
+		- `Casually, phát triển hệ thống.`
+	- `Transition:`
+		- `Chuyển giao và đảm bảo phát triển tốt trên môi trường khác hàng.`
+
+### Các quy tắc của RUP:
+
+- `Phát triển lặp lại: Tóm lại là có dùng iterations.`
+- `Quản lí yêu cầu: Quản lí chặt chẽ bằng use case diagram.`
+- `Kiến trúc theo thành phần: Chia làm các modules dễ bảo trì kiểm thử.`
+- `Mô hình phần mềm: Sử dụng UML để miêu tả phần mềm.`
+- `Liên tục xác minh chất lượng: Đánh giá liên tục qua mọi vòng lặp.`
+- `Kiểm soát thay đổi: Dùng công cụ check tầm ảnh hưởng thay đổi.`
 
 ---
-# *RUP:*
-
-### Rational Unified Process:
-- `Gồm 4 pha:`
-	- `Inception (specification): Định nghĩa phạm vi dự án.`
-		- `Tưởng tượng như giám đốc dự án nghĩ có nên làm không một project, nhỡ nó flop, nhỡ nó không thực dụng hay vô nghĩa, nhớ nó lỗ.`
-		- `Xác định phạm vi xem dự án này to hay nhỏ để triển khai nhân lực và đánh giá tài chính.`
-		- `Nhận diện use-case chính (20%).`
-	- `Elaboration (design): Lập kế hoạch, đặc tả kiến trúc cơ bản.`
-		- `Brainstorm để tìm ra cấu trúc cốt lõi, khung xương dự án.`
-		- `Do đó, đây là bước hoàn thành nốt use-case (80%).`
-		- `Có một chút implementation ở đây, tạo ra khung có thể dùng được trước được để chứng minh và sau đó kiểm thử.`
-	- `Construction (implementation): Phát triển phần mềm.`
-		- `Phát triển song song các phần của hệ thống, gồm nhiều lập trình viên.`
-	- `Transition (deploy): Bàn giao cho người dùng.`
-		- `Bàn giao và đảm bảo hoạt động tốt trong môi trường người dùng.`
-
-- `RUP rất gần với Waterfall model, tưởng tượng chính RUP là một cái modified waterfall để dành cho metadata, scope dự án. Đến bước 3 (construction) mới là làm thật. Bên trong bước này lại là lặp lại nhiều lần quy trình 5 bước của Waterfall.`
-
-### Business Process Modeling Notation:
-- `Trước khi đi vào mô hình, cần biết trước cách vận hành của khách hàng. Sinh ra BPMN để biết khách hàng đặt phần mềm hoạt động thế nào để viết ra phần mềm.`
-- `BPMN có thể coi như một phần của Inception, hoặc thậm chí là trước Inception.`
-- `Được nghiên cứu bởi giám đốc, BA (Business Analyst).`
-
-### 6 quy tắc của RUP:
-- `Phát triển lặp lại: Từng bước được lặp lại nhiều lần.`
-- `Quản lí yêu cầu:`
-	- `Tài liệu thay đổi yêu cầu.`
-	- `Ảnh hưởng của yêu cầu lên toàn bộ phạm vi.`
-	- `Lưu vết thay đổi.`
-- `Sử dụng kiến trúc dựa trên từng thành phần.`
-- `Mô hình phần mềm trực qua: Có thể dùng UML.`
-- `Kiểm chứng chất lượng phần mềm.`
-- `Kiểm soát thay đổi phần mềm.`
-
----
-# *Agile/Scrum:*
-
-### Agile:
-- `Một bộ quy tắc thực hành cho phát triển phần mềm. Tóm lại là lí thuyết, triết học, giống như một interface trong Java.`
-- `Scrum, XP, ... là các processes dựa trên agile, là class implements agile.`
+# *Agile:*
 
 ### Triết lí Agile:
-- `Một tập yêu cầu cố định là không thể, yêu cầu ban đầu luôn thay đổi, cần một cách triển khai dự án robust với sự thay đổi liên tục này.`
-- `Hậu quả của việc thay đổi là không cần bàn cãi.`
+
+- `SRS luôn thay đổi, cần một cấu trúc linh hoạt.`
+
 - `Tiến trình phát triển nhanh:`
 	- `Liên tục đặc tả, thiết kế, cài đặt xen kẽ chứ không có một lần chi tiết.`
 	- `Tài liệu thiết kế tối giản hoặc tự động.`
 	- `Nhiều phiên bản.`
 	- `Người dùng và nhà đầu tư cùng tham gia đặc tả và cùng đề xuất (tư vấn).`
+
 - `Incremental development, mỗi lần increment là một lần lặp, mỗi lần lặp gọi là một sprint.`
 
 ### Scrum (implements Agile):
-- `Một framework để team quản lí công việc.`
-	- `Các vai trò:`
-		- `Scrum master.`
-		- `Product owner.`
-		- `Development Team.`
-	- `Các tài liệu:`
-		- `Product backlog: Viết dưới dạng User Story.`
-		- `Sprint backlog.`
-		- `Product increment: phần snapshot mới của phần mềm sau một sprint.`
-	- `Trong một sprint có 4 bước:`
-		- `Sprint planning: Họp team để lấy task.`
-		- `Daily Scrum: Kiểm tra có khó khăn bất ngờ xảy ra không.`
-		- `Sprint review: Khách hàng và project owner đến kiểm tra.`
+
+- `Thành phần cơ bản của Scrum:`
+	- `Roles:`
+		- `Scrum master:`
+			- `Người này support dev team, xin trợ cấp, tạo điều kiện, giải quyết vấn đề cùng dev team.`
+		- `Product owner:`
+			- `Người này làm việc và hiểu khách hàng muốn gì, kiểm tra và chỉ đạo dev team làm đúng tiến độ và đúng ý khách hàng.`
+		- `Development team.`
+	- `Artifacts:`
+		- `Product backlog: Danh sách các user stories.`
+		- `Sprint backlog: Danh sách vòng lặp.`
+		- `Increment: Cái snapshot mới được tạo ra để thêm vào (tưởng tượng nó giống như tạo new version của một persistent segment tree).`
+	- `Events (một sprint):`
+		- `Spring planning: Họp team chia task.`
+		- `Daily Scrum: Họp hàng ngày, kiểm tra phát sinh.`
+		- `Sprint review: Khách hàng và project owner kiểm tra.`
 		- `Sprint retrospective: Kết thúc sprint.`
 
-### Extreme programming (implements Agile):
-- `Pair programming.`
-- `Test-driven programming.`
-- `Tái cấu trúc liên tục: Viết xong test hiệu năng, sau này lại đập đi làm lại để tích hợp tốt hơn, tối ưu hơn nữa.`
+- `Bản thân Scrum là liên tục lặp lại sprint cho đến khi xong.`
 
-### Một số tool hay dùng để quản lí backlog và sprint:
-- `Jira.`
-- `Trello.`
-- `Asana.`
+### Extreme programming (implements Agile):
+
+- `Hoạt động khá giống Scrum.`
+- `Điểm lưu ý duy nhất:`
+	- `Xử lí một user story.`
+	- `Một developer pilot, một developer navigator.`
+	- `Test-driven programming, viết test xong mới code một luồng chính thực hiện.`
+
+- `Tính chất nổi bật:`
+	- `Pair programming.`
+	- `Test-driven programming.`
+	- `Tái cấu trúc liên tục: Viết xong test hiệu năng, sau này lại đập đi làm lại để tích hợp tốt hơn, tối ưu hơn nữa.`
+
+### Khi nào nên sử dụng, khi nào nên tránh:
+
+- `RUP:`
+	- `Nên dùng khi:`
+		- `Quy mô cực lớn.`
+		- `Kiến trúc lõi rất quan trọng.`
+		- `Development team đông hoặc phân tán.`
+		- `Yêu cầu về tài liệu rất khắt khe.`
+	- `Không nên khi:`
+		- `Quy mô nhỏ, vừa.`
+		- `Time to market ngắn, cần gấp.`
+		- `Yêu cầu thay đổi linh hoạt.`
+
+- `Scrum:`
+	- `Nên dùng khi:`
+		- `SRS mơ hồ.`
+		- `Dự án quy mô vừa, nhỏ, hoặc có thể chia nhỏ.`
+		- `Time to market ngắn.`
+		- `Quản lí dev team tốt.`
+	- `Không nên khi:`
+		- `Hệ thống yêu cầu an toàn.`
+		- `Hệ thống nặng tài liệu và chốt cứng tính năng.`
+		- `Khách hàng khó hợp tác.`
+
+- `XP:`
+	- `Nên dùng khi:`
+		- `Yêu cầu thay đổi nhiều.`
+		- `Dự án cần chất lượng rất cao.`
+		- `Cần dev team phối hợp tốt và khách hàng phối hợp.`
+	- `Không nên khi:`
+		- `Dev team quản lí không tốt.`
+		- `Dự án lớn.`
+		- `Quy mô dự án lớn.`
 
 ---

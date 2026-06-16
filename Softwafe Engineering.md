@@ -6,10 +6,13 @@
 - [[Tuần 2 - Kỹ nghệ phần mềm]].
 - [[Tuần 3 - Process Models]].
 - [[Tuần 4 - Processes]].
-- [[Tuần 5 - Kỹ nghệ yêu cầu]].
-- [[Tuần 6 - Kỹ nghệ yêu cầu (tiếp)]].
+- [[Tuần 5 - Requirements Engineering]].
+- [[Tuần 6 - Requirement Gathering]].
 - [[Tuần 7 - Modeling system]].
+- [[Tuần 13 - Testing and maintainment]].
+- [[Tuần 14 - Basic testing methods]].
 ---
 # Thực hành đáng lưu tâm:
 
-- [[User story template]].
+- [[[Template] - User story with simple acceptance criteria]].
+- [[[Template] - FR and NFR]].

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d4b9e608d2b617a1",
+        "id": "897c4a5eb11ff887",
         "type": "tabs",
         "children": [
           {
-            "id": "8ac0de0af858efe0",
+            "id": "9f1da55eadd230e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lectures/Tuần 7 - Modeling system.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tuần 7 - Modeling system"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.5
   },
   "right": {
     "id": "a087dcfa5214db58",
@@ -183,20 +179,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "8ac0de0af858efe0",
+  "active": "9f1da55eadd230e0",
   "lastOpenFiles": [
-    "Practice/User story template.md",
-    "Lectures/Tuần 7 - Modeling system.md",
+    "Practice/[Template] - FR and NFR.md",
     "Softwafe Engineering.md",
-    "Lectures/Tuần 6 - Kỹ nghệ yêu cầu (tiếp).md",
-    "Lectures/Tuần 5 - Kỹ nghệ yêu cầu.md",
+    "Untitled.md",
+    "Lectures/Tuần 14 - Basic testing methods.md",
+    "Lectures/Tuần 13 - Testing and maintainment.md",
+    "Lectures/Tuần 8 - Designing architecture.md",
+    "Lectures/Tuần 7 - Modeling system.md",
+    "Lectures/Tuần 6 - Requirement Gathering.md",
+    "Lectures/Tuần 5 - Requirements Engineering.md",
+    "Tuần 8 -",
     "Lectures/Tuần 4 - Processes.md",
+    "Practice/[Template] - User story with simple acceptance criteria.md",
     "Lectures/Tuần 1 - Công nghệ phần mềm.md",
+    "Lectures/Tuần 2 - Kỹ nghệ phần mềm.md",
+    "Lectures/Tuần 3 - Process Models.md",
+    "Tuần 14 -",
     "Practice",
     "Lectures",
-    "Lectures/Tuần 3 - Process Models.md",
     "Tuần 4 - Process.md",
-    "Lectures/Tuần 2 - Kỹ nghệ phần mềm.md",
     "Định nghĩa cơ bản.md"
   ]
 }
