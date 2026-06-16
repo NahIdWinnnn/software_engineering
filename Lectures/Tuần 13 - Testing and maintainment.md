@@ -73,9 +73,9 @@
 		- `Report: Tổng, số testcases accepted và failed, not applicable, thống kê bug 3 loại.`
 		- `Kịch bản kiểm thử chi tiết: Bảng bên dưới.`
 
-| Thứ tự | Các bước KT (Test Steps)                                                                                                                                                                        | Expected result (Kết quả mong đợi)   | Actual result (Kết quả thực tế) | BugID | Version |   Status   |
-| :----: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------- | :------------------------------ | :---: | :-----: | :--------: |
-| **1.** | **Điều kiện:** <br>- Username: `vietth` đã có trong database.<br>- Password: `123456`.<br><br>**Các bước thực hiện:**<br>- Nhập username: `vietth`.<br>- Nhập password: `123`.<br>- Nhấn login. | - Không login được. <br>- Báo lỗi... | - Login thành công.             | BG56  |  1.0.1  | **Failed** |
+| `Thứ tự` | Các bước KT (Test Steps)                                                                                                                                                                        | Expected result (Kết quả mong đợi)   | Actual result (Kết quả thực tế) | BugID | Version |   Status   |
+| :------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------- | :------------------------------ | :---: | :-----: | :--------: |
+|  **1.**  | **Điều kiện:** <br>- Username: `vietth` đã có trong database.<br>- Password: `123456`.<br><br>**Các bước thực hiện:**<br>- Nhập username: `vietth`.<br>- Nhập password: `123`.<br>- Nhấn login. | - Không login được. <br>- Báo lỗi... | - Login thành công.             | BG56  |  1.0.1  | **Failed** |
 
 #### Hướng tiếp cận kiểm thử:
 - `Bộ testcase tốt:`
@@ -116,7 +116,7 @@
 			- `BAT: Kiểm thử phía cơ quan phát triển (ví dụ như nhà phát hành game check xem game đủ điều kiện không thì mới chịu phát hành nội địa).`
 			- `UAT: Kiểm thử phía người dùng (ví dụ như alpha test, beta test).`
 	- `Kiểm thử cài đặt: Kiểm thử phía người dùng.`
-+
+
 - `Kiểm thử hồi quy:`
 	- `Khi hệ thống chỉnh sửa, cần chạy lại toàn bộ bộ kiểm thử (giống như O(n^2)).`
 
